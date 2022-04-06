@@ -1,0 +1,18 @@
+.breadcrumb
+  &-list
+    display: flex
+    align-items: center
+    padding: 18px 0 //внутренние отсупы сверху и снизу 18, по краям 0
+    margin: 0 // убирает отсупы, которые вешает браузер
+    list-style: none // Убирает стилизацию списка li, убирает точки
+    &__item
+      font-size: 10px
+      line-height: 13px
+      &:not(:last-child) // убирает псевдоэлемент у последнего элемента списка li
+        &::after //псевдоэлемент будет после каждого списка li
+          content: '/'
+          margin-right: 4px //отодвинет псевдоэлемент вправо на 4рх
+    &__link
+      text-decoration: none //отключает подчеркивание у ссылок
+      color: inherit //делает цвет как у родителя
+
