@@ -7,7 +7,7 @@ var hotelSlider = new Swiper(".hotel-slider", {
     nextEl: ".hotel-slider__button--next",
     prevEl: ".hotel-slider__button--prev",
   },
-  effect: "coverflow",
+  effect: "cube",
 });
 const reviewsSlider = new Swiper(".reviews-slider", {
   // Optional parameters
@@ -18,5 +18,5 @@ const reviewsSlider = new Swiper(".reviews-slider", {
     nextEl: ".reviews-slider__button--next",
     prevEl: ".reviews-slider__button--prev",
   },
-  effect: "coverflow",
+  effect: "cube",
 });
