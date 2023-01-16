@@ -831,6 +831,10 @@ template {
   margin: auto;
 }
 
+.swiper-container-3d {
+  perspective: none;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
