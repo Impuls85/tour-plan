@@ -915,6 +915,9 @@ template {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .hotel__slider {
+    margin: 0 16px;
+  }
   .card {
     width: 230px;
     height: 230px;
@@ -950,6 +953,7 @@ template {
     flex-direction: column;
   }
   .hotel__slider {
+    margin: 0;
     margin-bottom: 30px;
   }
   .hotel-right {
