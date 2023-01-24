@@ -24,9 +24,13 @@
     &__link
       color: inherit //позволяет применить цвет как у родителя
       text-decoration: none //убирает декорирование текста, в данном случае подчеркивание ссылок
-      text-transform: uppercase //делает все буквы заглавными 
+      text-transform: uppercase //делает все буквы заглавными
       font-size: 14px //высота шрифта
       line-height: 18px //высота строки
+    &__item
+      &--mobile
+        &_visible
+          display: none
 .logo
   width: 177px //ширина блока
 .search
@@ -63,7 +67,7 @@
     border-radius: 50% //скругляет до круга
     object-fit: cover //не позволяет картинке скукоживаться
   &__name
-   margin-left: 18px
-   font-size: 14px
-   line-height: 18px
-   color: $text-color
+    margin-left: 18px
+    font-size: 14px
+    line-height: 18px
+    color: $text-color
