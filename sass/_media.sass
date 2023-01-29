@@ -16,7 +16,8 @@
     height: 230px
   .footer
     &__input
-      flex-basis: 100% //растягивает окно ввода до 100% ширины блока
+      &-group
+        flex-basis: 100% //растягивает окно ввода до 100% ширины блока
 @media (max-width: 992px)
   .container,
   .newsletter-wrapper
@@ -69,7 +70,8 @@
       grid-template-columns: repeat(6, 1fr) //изменяет количество колонок на 6 шириной по 1 фр
       grid-row-gap: 40px //добавляет воздух между строками
     &__input
-      flex-basis: 49% //растягивает окно ввода до 49% ширины блока
+      &-group
+        flex-basis: 48% //растягивает окно ввода до 49% ширины блока
     &__logo
       grid-row: 1 / 2
       grid-column: span 2
@@ -212,7 +214,8 @@
     height: 255px
   .footer
     &__input
-      flex-basis: 100%
+      &-group
+        flex-basis: 100%
 @media (max-width: 576px)
   .logo
     width: 99px
